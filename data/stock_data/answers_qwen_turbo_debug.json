@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "question_text": "中芯国际在晶圆制造行业中的地位如何？其服务范围和全球布局是怎样的？",
+      "kind": "string",
+      "value": "{\n  \"step_by_step_analysis\": \"1. 问题询问中芯国际在晶圆制造行业中的地位，以及其服务范围和全球布局。\\n2. 在年报中，第一页提到中芯国际是世界领先的集成电路晶圆代工企业之一，也是中国大陆集成电路制造业的领导者。\\n3. 同时，年报提到中芯国际拥有领先的工艺制造能力、产能优势和服务配套。\\n4. 关于服务范围，年报指出中芯国际为客户提供8英寸和12英寸晶圆代工与技术服务，并提供设计服务与IP支持、光掩模制造等一站式配套服务。\\n5. 全球布局方面，年报提到中芯国际在全球多个地区设有客户服务团队，包括上海、北京、天津、深圳、中国台湾、美国加州、德国慕尼黑、意大利米兰、日本东京等地。\\n6. 综合以上信息，可以总结出中芯国际在晶圆制造行业的地位、服务范围和全球布局。\",\n  \"reasoning_summary\": \"中芯国际在晶圆制造行业中处于领先地位，服务范围广泛且覆盖全球多个地区。\",\n  \"relevant_pages\": [0],\n  \"final_answer\": \"中芯国际是世界领先的集成电路晶圆代工企业之一，也是中国大陆集成电路制造业的领导者。公司拥有领先的工艺制造能力、产能优势和服务配套，为客户提供8英寸和12英寸晶圆代工与技术服务，并提供设计服务与IP支持、光掩模制造等一站式配套服务。在全球范围内，中芯国际的服务覆盖上海、北京、天津、深圳、中国台湾、美国加州、德国慕尼黑、意大利米兰、日本东京等多个国家和地区。\"\n}",
+      "references": [
+        {
+          "pdf_sha1": "stock_10001",
+          "page_index": 0
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/0"
+      }
+    },
+    {
+      "question_text": "半导体行业有哪些关键特性，这些特性如何助力中芯国际发展？",
+      "kind": "string",
+      "value": null,
+      "references": [],
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+      "answer_details": {
+        "$ref": "#/answer_details/1"
+      }
+    },
+    {
+      "question_text": "中芯国际的营收和利润情况近期有何变化？影响因素是什么？",
+      "kind": "string",
+      "value": "{\n  \"step_by_step_analysis\": \"1. 问题要求分析中芯国际的营收和利润变化及其影响因素。\\n2. 年报第5页提到，2024年公司销售收入为人民币578亿元，同比增长28%，创历史新高；毛利率19%。\\n3. 第6页指出，净利润为人民币3,698.7百万元，比上年同期减少23.3%。\\n4. 营收增长主要由于晶圆销售数量增加和产品组合变动，而净利润下降可能与成本上升、管理费用增加有关。\\n5. 结合上下文，总结营收和利润的变化及原因。\",\n  \"reasoning_summary\": \"年报明确列出了2024年的营收和利润数据，并解释了其变化原因，答案基于原文归纳。\",\n  \"relevant_pages\": [5, 6],\n  \"final_answer\": \"2024年，中芯国际的营业收入为人民币578亿元，同比增长28%，创历史新高；但净利润为人民币3,698.7百万元，同比下降23.3%。营收增长主要得益于晶圆销售数量增加（从586.7万片增至802.1万片）以及产品组合优化。净利润下降可能受到营业成本上升、管理费用增加等因素的影响。\"\n}",
+      "references": [
+        {
+          "pdf_sha1": "stock_10001",
+          "page_index": 0
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/2"
+      }
+    },
+    {
+      "question_text": "中芯国际的收入结构有何变化？尤其是在中国大陆和北美市场的表现如何？",
+      "kind": "string",
+      "value": "{\n  \"step_by_step_analysis\": \"1. 问题询问中芯国际的收入结构变化，以及中国大陆和北美市场的表现。\\n2. 需要从年报中查找与收入结构、市场分布相关的信息。\\n3. 在提供的文本中，未直接提及收入结构的具体数据或中国大陆和北美市场的具体销售情况。\\n4. 虽然提到公司为全球客户提供服务，并在多个地区设有办事处，但没有明确说明各地区的收入占比或变化。\\n5. 因此，无法基于现有信息回答该问题。\",\n  \"reasoning_summary\": \"年报中未提供关于收入结构变化及中国大陆和北美市场具体表现的数据。\",\n  \"relevant_pages\": [],\n  \"final_answer\": \"根据提供的年报内容，未明确提及中芯国际的收入结构变化以及中国大陆和北美市场的具体表现。因此，无法提供相关信息。\"\n}",
+      "references": [
+        {
+          "pdf_sha1": "stock_10001",
+          "page_index": 0
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/3"
+      }
+    },
+    {
+      "question_text": "美国对中国半导体产业的限制政策对中芯国际有何影响？中芯国际如何应对？",
+      "kind": "string",
+      "value": "{\n  \"step_by_step_analysis\": \"1. 问题询问美国对中国半导体产业的限制政策对中芯国际的影响以及中芯国际的应对措施。\\n2. 在检索到的文本中，明确提到中芯国际被美国列入‘中国涉军企业清单’和‘实体清单’，并受到出口管制政策影响。\\n3. 文本还提到，美国对特定物项（如10nm及以下技术节点相关）实施‘推定拒绝’审批政策，这可能影响中芯国际获取关键设备、原材料等。\\n4. 针对这些限制，中芯国际采取了多项应对措施，包括加强自主研发、优化供应链管理、拓展本地化合作等。\\n5. 结合以上信息，可以总结出美国政策对中芯国际的具体影响及其应对策略。\",\n  \"reasoning_summary\": \"文本中详细描述了美国政策对中芯国际的影响，并提到了公司为应对这些挑战所采取的措施。\",\n  \"relevant_pages\": [0],\n  \"final_answer\": \"美国对中国半导体产业的限制政策对中芯国际产生了显著影响。例如，中芯国际被美国列入‘中国涉军企业清单’和‘实体清单’，导致其在获取某些关键设备、原材料和技术支持方面面临困难。此外，美国对10nm及以下技术节点相关的物项实施‘推定拒绝’审批政策，进一步限制了中芯国际的技术发展和产能扩张。为应对这些挑战，中芯国际通过加大研发投入、提升自主创新能力、优化供应链管理、深化与本土供应商的合作等方式，努力降低对外部技术依赖，同时积极拓展本地化产业链，以增强自身的抗风险能力和竞争力。\"\n}",
+      "references": [
+        {
+          "pdf_sha1": "stock_10001",
+          "page_index": 0
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/4"
+      }
+    }
+  ],
+  "answer_details": [
+    {
+      "step_by_step_analysis": "",
+      "reasoning_summary": "",
+      "relevant_pages": [
+        0
+      ],
+      "response_data": {
+        "model": "qwen-turbo-latest",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      "self": "#/answer_details/0"
+    },
+    {
+      "error_traceback": "Traceback (most recent call last):\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 715, in urlopen\n    httplib_response = self._make_request(\n                       ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 404, in _make_request\n    self._validate_conn(conn)\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 1058, in _validate_conn\n    conn.connect()\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\connection.py\", line 419, in connect\n    self.sock = ssl_wrap_socket(\n                ^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\util\\ssl_.py\", line 449, in ssl_wrap_socket\n    ssl_sock = _ssl_wrap_socket_impl(\n               ^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\util\\ssl_.py\", line 493, in _ssl_wrap_socket_impl\n    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ssl.py\", line 517, in wrap_socket\n    return self.sslsocket_class._create(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ssl.py\", line 1108, in _create\n    self.do_handshake()\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ssl.py\", line 1379, in do_handshake\n    self._sslobj.do_handshake()\nConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\requests\\adapters.py\", line 667, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 799, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\util\\retry.py\", line 550, in increment\n    raise six.reraise(type(error), error, _stacktrace)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\packages\\six.py\", line 769, in reraise\n    raise value.with_traceback(tb)\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 715, in urlopen\n    httplib_response = self._make_request(\n                       ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 404, in _make_request\n    self._validate_conn(conn)\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 1058, in _validate_conn\n    conn.connect()\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\connection.py\", line 419, in connect\n    self.sock = ssl_wrap_socket(\n                ^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\util\\ssl_.py\", line 449, in ssl_wrap_socket\n    ssl_sock = _ssl_wrap_socket_impl(\n               ^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\urllib3\\util\\ssl_.py\", line 493, in _ssl_wrap_socket_impl\n    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ssl.py\", line 517, in wrap_socket\n    return self.sslsocket_class._create(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ssl.py\", line 1108, in _create\n    self.do_handshake()\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ssl.py\", line 1379, in do_handshake\n    self._sslobj.do_handshake()\nurllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"D:\\RAG-cy\\src\\questions_processing.py\", line 291, in _process_single_question\n    answer_dict = self.process_question(question_text, schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\RAG-cy\\src\\questions_processing.py\", line 205, in process_question\n    answer_dict = self.get_answer_for_company(company_name=company_name, question=question, schema=schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\RAG-cy\\src\\questions_processing.py\", line 144, in get_answer_for_company\n    retrieval_results = retriever.retrieve_by_company_name(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\RAG-cy\\src\\retrieval.py\", line 324, in retrieve_by_company_name\n    reranked_results = self.reranker.rerank_documents(\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\RAG-cy\\src\\reranking.py\", line 215, in rerank_documents\n    batch_results = list(executor.map(process_batch, doc_batches))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\_base.py\", line 619, in result_iterator\n    yield _result_or_cancel(fs.pop())\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\_base.py\", line 317, in _result_or_cancel\n    return fut.result(timeout)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\thread.py\", line 58, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\RAG-cy\\src\\reranking.py\", line 185, in process_batch\n    rankings = self.get_rank_for_multiple_blocks(query, texts)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\RAG-cy\\src\\reranking.py\", line 127, in get_rank_for_multiple_blocks\n    rsp = self.llm.Generation.call(\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\dashscope\\aigc\\generation.py\", line 138, in call\n    response = super().call(model=model,\n               ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\dashscope\\client\\base_api.py\", line 145, in call\n    return request.call()\n           ^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\dashscope\\api_entities\\http_request.py\", line 83, in call\n    output = next(response)\n             ^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\dashscope\\api_entities\\http_request.py\", line 302, in _handle_request\n    raise e\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\dashscope\\api_entities\\http_request.py\", line 285, in _handle_request\n    response = session.post(url=self.url,\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\requests\\sessions.py\", line 637, in post\n    return self.request(\"POST\", url, data=data, json=json, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\requests\\adapters.py\", line 682, in send\n    raise ConnectionError(err, request=request)\nrequests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))\n",
+      "self": "#/answer_details/1"
+    },
+    {
+      "step_by_step_analysis": "",
+      "reasoning_summary": "",
+      "relevant_pages": [
+        0
+      ],
+      "response_data": {
+        "model": "qwen-turbo-latest",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      "self": "#/answer_details/2"
+    },
+    {
+      "step_by_step_analysis": "",
+      "reasoning_summary": "",
+      "relevant_pages": [
+        0
+      ],
+      "response_data": {
+        "model": "qwen-turbo-latest",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      "self": "#/answer_details/3"
+    },
+    {
+      "step_by_step_analysis": "",
+      "reasoning_summary": "",
+      "relevant_pages": [
+        0
+      ],
+      "response_data": {
+        "model": "qwen-turbo-latest",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      "self": "#/answer_details/4"
+    }
+  ],
+  "statistics": {
+    "total_questions": 5,
+    "error_count": 1,
+    "na_count": 0,
+    "success_count": 4
+  }
+}

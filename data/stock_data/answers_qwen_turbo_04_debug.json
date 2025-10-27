@@ -1,0 +1,82 @@
+{
+  "questions": [
+    {
+      "question_text": "中芯国际在晶圆制造行业中的地位如何？其服务范围和全球布局是怎样的？",
+      "kind": "string",
+      "value": null,
+      "references": [],
+      "error": "ValueError: No report found with '中芯国际' company name.",
+      "answer_details": {
+        "$ref": "#/answer_details/0"
+      }
+    },
+    {
+      "question_text": "半导体行业有哪些关键特性，这些特性如何助力中芯国际发展？",
+      "kind": "string",
+      "value": null,
+      "references": [],
+      "error": "ValueError: No report found with '中芯国际' company name.",
+      "answer_details": {
+        "$ref": "#/answer_details/1"
+      }
+    },
+    {
+      "question_text": "中芯国际的营收和利润情况近期有何变化？影响因素是什么？",
+      "kind": "string",
+      "value": null,
+      "references": [],
+      "error": "ValueError: No report found with '中芯国际' company name.",
+      "answer_details": {
+        "$ref": "#/answer_details/2"
+      }
+    },
+    {
+      "question_text": "中芯国际的收入结构有何变化？尤其是在中国大陆和北美市场的表现如何？",
+      "kind": "string",
+      "value": null,
+      "references": [],
+      "error": "ValueError: No report found with '中芯国际' company name.",
+      "answer_details": {
+        "$ref": "#/answer_details/3"
+      }
+    },
+    {
+      "question_text": "美国对中国半导体产业的限制政策对中芯国际有何影响？中芯国际如何应对？",
+      "kind": "string",
+      "value": null,
+      "references": [],
+      "error": "ValueError: No report found with '中芯国际' company name.",
+      "answer_details": {
+        "$ref": "#/answer_details/4"
+      }
+    }
+  ],
+  "answer_details": [
+    {
+      "error_traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 301, in _process_single_question\n    answer_dict = self.process_question(question_text, schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 215, in process_question\n    answer_dict = self.get_answer_for_company(company_name=company_name, question=question, schema=schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 148, in get_answer_for_company\n    retrieval_results = retriever.retrieve_by_company_name(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\retrieval.py\", line 319, in retrieve_by_company_name\n    vector_results = self.vector_retriever.retrieve_by_company_name(\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\retrieval.py\", line 212, in retrieve_by_company_name\n    raise ValueError(f\"No report found with '{company_name}' company name.\")\nValueError: No report found with '中芯国际' company name.\n",
+      "self": "#/answer_details/0"
+    },
+    {
+      "error_traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 301, in _process_single_question\n    answer_dict = self.process_question(question_text, schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 215, in process_question\n    answer_dict = self.get_answer_for_company(company_name=company_name, question=question, schema=schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 148, in get_answer_for_company\n    retrieval_results = retriever.retrieve_by_company_name(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\retrieval.py\", line 319, in retrieve_by_company_name\n    vector_results = self.vector_retriever.retrieve_by_company_name(\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\retrieval.py\", line 212, in retrieve_by_company_name\n    raise ValueError(f\"No report found with '{company_name}' company name.\")\nValueError: No report found with '中芯国际' company name.\n",
+      "self": "#/answer_details/1"
+    },
+    {
+      "error_traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 301, in _process_single_question\n    answer_dict = self.process_question(question_text, schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 215, in process_question\n    answer_dict = self.get_answer_for_company(company_name=company_name, question=question, schema=schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 148, in get_answer_for_company\n    retrieval_results = retriever.retrieve_by_company_name(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\retrieval.py\", line 319, in retrieve_by_company_name\n    vector_results = self.vector_retriever.retrieve_by_company_name(\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\retrieval.py\", line 212, in retrieve_by_company_name\n    raise ValueError(f\"No report found with '{company_name}' company name.\")\nValueError: No report found with '中芯国际' company name.\n",
+      "self": "#/answer_details/2"
+    },
+    {
+      "error_traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 301, in _process_single_question\n    answer_dict = self.process_question(question_text, schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 215, in process_question\n    answer_dict = self.get_answer_for_company(company_name=company_name, question=question, schema=schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 148, in get_answer_for_company\n    retrieval_results = retriever.retrieve_by_company_name(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\retrieval.py\", line 319, in retrieve_by_company_name\n    vector_results = self.vector_retriever.retrieve_by_company_name(\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\retrieval.py\", line 212, in retrieve_by_company_name\n    raise ValueError(f\"No report found with '{company_name}' company name.\")\nValueError: No report found with '中芯国际' company name.\n",
+      "self": "#/answer_details/3"
+    },
+    {
+      "error_traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 301, in _process_single_question\n    answer_dict = self.process_question(question_text, schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 215, in process_question\n    answer_dict = self.get_answer_for_company(company_name=company_name, question=question, schema=schema)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\questions_processing.py\", line 148, in get_answer_for_company\n    retrieval_results = retriever.retrieve_by_company_name(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\retrieval.py\", line 319, in retrieve_by_company_name\n    vector_results = self.vector_retriever.retrieve_by_company_name(\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Desktop\\RAG-cy\\src\\retrieval.py\", line 212, in retrieve_by_company_name\n    raise ValueError(f\"No report found with '{company_name}' company name.\")\nValueError: No report found with '中芯国际' company name.\n",
+      "self": "#/answer_details/4"
+    }
+  ],
+  "statistics": {
+    "total_questions": 5,
+    "error_count": 5,
+    "na_count": 0,
+    "success_count": 0
+  }
+}

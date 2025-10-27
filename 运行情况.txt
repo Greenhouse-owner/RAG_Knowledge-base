@@ -1,0 +1,95 @@
+PS D:\RAG-Challenge-2-main> python -m src.pipeline
+root_path: D:\RAG-Challenge-2-main\data\test_set
+1. 解析PDF报告为结构化JSON，输出到 debug/data_01_parsed_reports
+DEBUG:tensorflow:Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG:h5py._conv:Creating converter from 7 to 5
+DEBUG:h5py._conv:Creating converter from 5 to 7
+DEBUG:h5py._conv:Creating converter from 7 to 5
+DEBUG:h5py._conv:Creating converter from 5 to 7
+INFO:src.pdf_parsing:Starting to process 5 documents
+INFO:docling.document_converter:Going to convert document batch...
+INFO:docling.document_converter:Initializing pipeline for StandardPdfPipeline with options hash 7d9a167221579fdb2d9ef48812d1110c
+INFO:docling.models.factories.base_factory:Loading plugin 'docling_defaults'
+INFO:docling.models.factories:Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+WARNING:easyocr.easyocr:Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+INFO:easyocr.easyocr:Download complete
+WARNING:easyocr.easyocr:Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+INFO:easyocr.easyocr:Download complete.
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/ds4sd/docling-models/revision/v2.1.0 HTTP/1.1" 200 1267
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/.gitattributes HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 1923726031568 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\575b058b45230d48a06df9b1944f4bd40949db1d.lock
+DEBUG:filelock:Lock 1923726031568 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\575b058b45230d48a06df9b1944f4bd40949db1d.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/layout/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 1923637115280 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\fcdff16b42e5ebc51d28f59184490c6eff91a88b.lock
+DEBUG:filelock:Lock 1923637115280 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\fcdff16b42e5ebc51d28f59184490c6eff91a88b.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/layout/config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 1923726068624 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\d24c213cfa3d55cc4a301f415b54a19e7ce104cc.lock
+DEBUG:filelock:Lock 1923726068624 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\d24c213cfa3d55cc4a301f415b54a19e7ce104cc.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 1923726402704 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\4dc84c9101238bb955158144660155da99438490.lock
+DEBUG:filelock:Lock 1923726402704 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\4dc84c9101238bb955158144660155da99438490.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/layout/model.safetensors HTTP/1.1" 302 0
+DEBUG:filelock:Attempting to acquire lock 1923726231312 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\31e60b4709571b613bc8736a9c982fb550d8d7a1809160a68a8282af60c8910b.lock
+DEBUG:filelock:Lock 1923726231312 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\31e60b4709571b613bc8736a9c982fb550d8d7a1809160a68a8282af60c8910b.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/.gitignore HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 1923726194192 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\9430eb3c89847aa8f80af5c96df3c348fca6da63.lock
+DEBUG:filelock:Lock 1923726194192 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\9430eb3c89847aa8f80af5c96df3c348fca6da63.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors HTTP/1.1" 302 0
+DEBUG:filelock:Attempting to acquire lock 1923726080976 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\66d8912f290375d3466f91be2048030a16317e84c8f1f69d3dbd7adc6d6cd2a9.lock
+DEBUG:filelock:Lock 1923726080976 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\66d8912f290375d3466f91be2048030a16317e84c8f1f69d3dbd7adc6d6cd2a9.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/.gitattributes HTTP/1.1" 200 1905
+D:\AppData\Local\Programs\Python\Python311\Lib\site-packages\huggingface_hub\file_download.py:142: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\cheny\.cache\huggingface\hub\models--ds4sd--docling-models. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+DEBUG:filelock:Attempting to release lock 1923726031568 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\575b058b45230d48a06df9b1944f4bd40949db1d.lock
+DEBUG:filelock:Lock 1923726031568 released on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\575b058b45230d48a06df9b1944f4bd40949db1d.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/layout/preprocessor_config.json HTTP/1.1" 200 444
+DEBUG:filelock:Attempting to release lock 1923637115280 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\fcdff16b42e5ebc51d28f59184490c6eff91a88b.lock
+DEBUG:filelock:Lock 1923637115280 released on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\fcdff16b42e5ebc51d28f59184490c6eff91a88b.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/config.json HTTP/1.1" 200 41
+DEBUG:filelock:Attempting to release lock 1923726402704 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\4dc84c9101238bb955158144660155da99438490.lock
+DEBUG:filelock:Lock 1923726402704 released on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\4dc84c9101238bb955158144660155da99438490.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/.gitignore HTTP/1.1" 200 5180
+DEBUG:filelock:Attempting to release lock 1923726194192 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\9430eb3c89847aa8f80af5c96df3c348fca6da63.lock
+DEBUG:filelock:Lock 1923726194192 released on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\9430eb3c89847aa8f80af5c96df3c348fca6da63.lock
+DEBUG:urllib3.connectionpool:https://cdn-lfs-us-1.hf.co:443 "GET /repos/84/16/8416a7eb6bc0964a8abb5bb890afca2b8384fdc1e010a788e6c411a97c4d2305/66d8912f290375d3466f91be2048030a16317e84c8f1f69d3dbd7adc6d6cd2a9?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27tableformer_accurate.safetensors%3B+filename%3D%22tableformer_accurate.safetensors%22%3B&Expires=1748577761&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0ODU3Nzc2MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzg0LzE2Lzg0MTZhN2ViNmJjMDk2NGE4YWJiNWJiODkwYWZjYTJiODM4NGZkYzFlMDEwYTc4OGU2YzQxMWE5N2M0ZDIzMDUvNjZkODkxMmYyOTAzNzVkMzQ2NmY5MWJlMjA0ODAzMGExNjMxN2U4NGM4ZjFmNjlkM2RiZDdhZGM2ZDZjZDJhOT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=IfNEA7VPn~0W1RdBtJrrKTc5aAL8Yk7SjNGiybBoswWEzTiNHhkwacD7KWNd-L9fpkMA8U1GnOhNDUcWt4-N-OBhBYYcrUszxzfeVd2l0LFlLOIcEOW-Lad-LIFG3lr6GJo8opp8JABKZNQyhDBHPa8gXoUBMRfZLkvuKyGwLYoaCnNm-anhJ5J6pQTO3LPKknm5lqoCZNo~r6u07BhnVIGn4BES3JedY0O87lkCmsMqidSPfBG2k3l3u4nIjAE3O~vYuPPN3D7w5aQnbhFRuapd~OrblUKDwJ599bsOnr3u3jWGJ44ak-cYAxlH4xTVbs9l~z2LVDNS8P5LKDTgmw__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 200 212758388
+DEBUG:urllib3.connectionpool:https://cdn-lfs-us-1.hf.co:443 "GET /repos/84/16/8416a7eb6bc0964a8abb5bb890afca2b8384fdc1e010a788e6c411a97c4d2305/31e60b4709571b613bc8736a9c982fb550d8d7a1809160a68a8282af60c8910b?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1748577450&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0ODU3NzQ1MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzg0LzE2Lzg0MTZhN2ViNmJjMDk2NGE4YWJiNWJiODkwYWZjYTJiODM4NGZkYzFlMDEwYTc4OGU2YzQxMWE5N2M0ZDIzMDUvMzFlNjBiNDcwOTU3MWI2MTNiYzg3MzZhOWM5ODJmYjU1MGQ4ZDdhMTgwOTE2MGE2OGE4MjgyYWY2MGM4OTEwYj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Z39Uhqds~S-zU-vQE3~1dfAM1czpYOEU0EsNdtBvD3cIkjrUut6obqDjjn4t0yDPFSW-C7fUopVMxr736T~wgDXMKDw8vSmvaCDxxT23SLP9XcAbyt4xgPcG4Mp6hoh~5vRImJ0yuwt8pt9RUe0vnzK8oS-gZtpK~VP6YwaOGeNgkez3~x4IUy6xVACApII21E4laKgdO9i-tFw0jxnqbOoQd0L7bqt8CBk3r~kluCqMKPPXSXLSIlC6~SyNro9kAp-6oMVETdKE1PWbDP945lwvRtjq-I7aHdaM7bWfGkhmBgsOAsxGc6YYlGHQuZiuhsAR0eghE8embb~5nXH8Vw__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 200 171666216
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/layout/config.json HTTP/1.1" 200 2864
+DEBUG:filelock:Attempting to release lock 1923726068624 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\d24c213cfa3d55cc4a301f415b54a19e7ce104cc.lock
+DEBUG:filelock:Lock 1923726068624 released on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\d24c213cfa3d55cc4a301f415b54a19e7ce104cc.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/README.md HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 1923726195280 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\7008c0269fece2af4ca4d79d116cf5a783178e58.lock
+DEBUG:filelock:Lock 1923726195280 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\7008c0269fece2af4ca4d79d116cf5a783178e58.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/tableformer/accurate/tm_config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 1923638709904 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\5036aa114b9393f607440cb0f6cc54229b5b30e1.lock
+DEBUG:filelock:Lock 1923638709904 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\5036aa114b9393f607440cb0f6cc54229b5b30e1.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/tableformer/fast/tableformer_fast.safetensors HTTP/1.1" 302 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/tableformer/fast/tm_config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 1923725877968 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\d02c5889d288b8baefd42e9e4da094f0cea07bbe.lock
+DEBUG:filelock:Attempting to acquire lock 1923637349904 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\3119563aab5a7c96fda4d621119b63fd8806272b86c30936d15507616422f718.lock
+DEBUG:filelock:Lock 1923725877968 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\d02c5889d288b8baefd42e9e4da094f0cea07bbe.lock
+DEBUG:filelock:Lock 1923637349904 acquired on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\3119563aab5a7c96fda4d621119b63fd8806272b86c30936d15507616422f718.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/README.md HTTP/1.1" 200 3486
+DEBUG:filelock:Attempting to release lock 1923726195280 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\7008c0269fece2af4ca4d79d116cf5a783178e58.lock
+DEBUG:filelock:Lock 1923726195280 released on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\7008c0269fece2af4ca4d79d116cf5a783178e58.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/tableformer/accurate/tm_config.json HTTP/1.1" 200 7060
+DEBUG:filelock:Attempting to release lock 1923638709904 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\5036aa114b9393f607440cb0f6cc54229b5b30e1.lock
+DEBUG:filelock:Lock 1923638709904 released on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\5036aa114b9393f607440cb0f6cc54229b5b30e1.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /ds4sd/docling-models/resolve/36bebf56681740529abd09f5473a93a69373fbf0/model_artifacts/tableformer/fast/tm_config.json HTTP/1.1" 200 7060
+DEBUG:filelock:Attempting to release lock 1923725877968 on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\d02c5889d288b8baefd42e9e4da094f0cea07bbe.lock
+DEBUG:filelock:Lock 1923725877968 released on C:\Users\cheny\.cache\huggingface\hub\.locks\models--ds4sd--docling-models\d02c5889d288b8baefd42e9e4da094f0cea07bbe.lock
+DEBUG:urllib3.connectionpool:https://cdn-lfs-us-1.hf.co:443 "GET /repos/84/16/8416a7eb6bc0964a8abb5bb890afca2b8384fdc1e010a788e6c411a97c4d2305/3119563aab5a7c96fda4d621119b63fd8806272b86c30936d15507616422f718?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27tableformer_fast.safetensors%3B+filename%3D%22tableformer_fast.safetensors%22%3B&Expires=1748576907&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0ODU3NjkwN319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzg0LzE2Lzg0MTZhN2ViNmJjMDk2NGE4YWJiNWJiODkwYWZjYTJiODM4NGZkYzFlMDEwYTc4OGU2YzQxMWE5N2M0ZDIzMDUvMzExOTU2M2FhYjVhN2M5NmZkYTRkNjIxMTE5YjYzZmQ4ODA2MjcyYjg2YzMwOTM2ZDE1NTA3NjE2NDIyZjcxOD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=RcYOabKci0mW72MWUudGM0sC75KdNXw-uk0kBvSB6QmhpthFjROmGC1R95f4JLtsE~5IFElKlx2a8hcwZsWoVrGGRkwqf8--X1mflzCfyI4nf-wLOAHvUx-uJ8QU~iJ-QQUJDdhjM5S1fUaMIf3x5~uKt2Qy~Oadn2shreQwaaEM12JpRNuEAvWOgHsvIvgYcAB8A-JrzSNiA7jDErz6bkx2KXP5NPrFpd2mporT9kaXQci7YPLZn4XS--HR96L35UtKuwcjV0nifEPXEEWb9raB4zZ-GPYBOV~dIAkB9BR6F0varMx3cs0t946GRmqpx8OV6pvnn4xXaHL6co9RpA__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 200 145453276

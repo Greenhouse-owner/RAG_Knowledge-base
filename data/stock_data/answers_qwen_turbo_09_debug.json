@@ -1,0 +1,147 @@
+{
+  "questions": [
+    {
+      "question_text": "中芯国际在晶圆制造行业中的地位如何？其服务范围和全球布局是怎样的？",
+      "kind": "string",
+      "value": "```\n{\n  \"step_by_step_analysis\": \"1. 问题要求分析中芯国际在晶圆制造行业中的地位，以及其服务范围和全球布局。\\n2. 第1页明确指出：中芯国际是中国大陆集成电路制造业的领导者，专注于提供高品质的集成电路制造服务。\\n3. 同页提到公司拥有28纳米、14纳米、12纳米和7纳米工艺节点，说明其技术能力处于行业先进水平。\\n4. 第2页指出公司在全球设有多个研发中心和制造基地，以满足不同客户的需求，表明其具备全球布局。\\n5. 结合两页内容，可归纳出其行业地位、服务范围（高端晶圆制造）和全球布局（多基地+研发网络）。\\n6. 答案需基于原文表述，不添加外部信息。\",\n  \"reasoning_summary\": \"第1页定义了中芯国际的行业地位和技术能力，第2页说明其全球布局和服务覆盖范围，答案基于这两页内容整合得出。\",\n  \"relevant_pages\": [1, 2],\n  \"final_answer\": \"中芯国际是中国大陆集成电路制造业的领导者，在晶圆制造行业中具有重要地位。其服务范围涵盖28纳米至7纳米先进工艺节点的高品质集成电路制造。公司在全球设有多个研发中心和制造基地，以满足不同客户的需求，具备广泛的全球布局。\"\n}\n```",
+      "references": [
+        {
+          "pdf_sha1": "stock_10001",
+          "page_index": 0
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/0"
+      }
+    },
+    {
+      "question_text": "半导体行业有哪些关键特性，这些特性如何助力中芯国际发展？",
+      "kind": "string",
+      "value": "```\n{\n  \"step_by_step_analysis\": \"1. 问题要求分析半导体行业的关键特性，并说明这些特性如何助力中芯国际发展。\\n2. 根据第1页内容，中芯国际专注于高品质集成电路制造服务，拥有28纳米、14纳米、12纳米和7纳米工艺节点，这表明半导体行业具有技术密集型和高工艺复杂性的特点。\\n3. 第2页提到公司在全球设有多个研发中心和制造基地，说明行业具有全球化布局需求；同时持续投资研发以保持竞争优势，体现行业对技术创新的高度依赖。\\n4. 这些特性（技术先进性、全球化运营、研发投入）直接支撑中芯国际在行业中保持领先地位并满足客户需求。\\n5. 综合以上信息，提炼出行业特性及其对中芯国际的助力作用。\",\n  \"reasoning_summary\": \"行业特性从年报中提取：技术先进性（多纳米节点）、全球化布局（多地研发制造基地）、持续创新（研发投入）。这些特性与中芯国际的战略一致，助力其发展。\",\n  \"relevant_pages\": [1, 2],\n  \"final_answer\": \"半导体行业的关键特性包括技术密集性（如28纳米至7纳米工艺节点）、全球化运营需求（全球研发和制造基地）以及对持续研发的依赖。这些特性助力中芯国际保持技术领先、满足全球客户需求并巩固其在中国大陆集成电路制造业的领导地位。\"\n}\n```",
+      "references": [
+        {
+          "pdf_sha1": "stock_10001",
+          "page_index": 0
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/1"
+      }
+    },
+    {
+      "question_text": "中芯国际的营收和利润情况近期有何变化？影响因素是什么？",
+      "kind": "string",
+      "value": "```\n{\n  \"step_by_step_analysis\": \"1. 问题要求分析中芯国际近期营收和利润的变化及其影响因素。\\n2. 检索到的上下文仅包含第1页和第2页内容，未提及任何财务数据（如营收、利润数值或趋势）。\\n3. 上下文描述了公司定位（中国大陆集成电路制造业领导者）、技术能力（28nm至7nm工艺）及全球布局（研发中心和制造基地），但未涉及财务表现或变化。\\n4. 因此无法从现有信息中得出营收和利润的具体变化情况或影响因素。\\n5. 答案必须基于检索到的内容，不能推测或补充外部知识。\",\n  \"reasoning_summary\": \"上下文未提供任何关于营收或利润的数据或趋势分析，因此无法回答该问题。\",\n  \"relevant_pages\": [1, 2],\n  \"final_answer\": \"根据提供的资料，无法确定中芯国际的营收和利润近期变化情况及其影响因素。\"\n}\n```",
+      "references": [
+        {
+          "pdf_sha1": "stock_10001",
+          "page_index": 0
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/2"
+      }
+    },
+    {
+      "question_text": "中芯国际的收入结构有何变化？尤其是在中国大陆和北美市场的表现如何？",
+      "kind": "string",
+      "value": "```\n{\n  \"step_by_step_analysis\": \"1. 问题要求分析中芯国际的收入结构变化，特别是中国大陆和北美市场的表现。\\n2. 检索到的上下文仅包含第1页和第2页的内容，其中第1页描述了公司定位、技术能力和服务范围；第2页提到公司在全球设有研发中心和制造基地，并持续投资研发。\\n3. 上下文未提供任何关于收入结构的具体数据或趋势信息，也未提及中国大陆或北美市场的收入表现。\\n4. 因此，无法基于现有内容回答收入结构变化或区域市场表现的问题。\",\n  \"reasoning_summary\": \"检索到的页面未包含收入结构或区域市场收入数据，无法回答问题。\",\n  \"relevant_pages\": [1, 2],\n  \"final_answer\": \"根据提供的年报内容，无法确定中芯国际的收入结构变化，也无法评估中国大陆和北美市场的具体表现。\"\n}\n```",
+      "references": [
+        {
+          "pdf_sha1": "stock_10001",
+          "page_index": 0
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/3"
+      }
+    },
+    {
+      "question_text": "美国对中国半导体产业的限制政策对中芯国际有何影响？中芯国际如何应对？",
+      "kind": "string",
+      "value": "```\n{\n  \"step_by_step_analysis\": \"1. 问题询问美国对中国半导体产业限制政策对中芯国际的影响及应对措施。\\n2. 检索到的上下文仅包含第1页和第2页内容，其中未提及美国政策、限制或具体应对策略。\\n3. 第1页说明中芯国际是中国大陆集成电路制造业领导者，拥有先进工艺技术（如28纳米至7纳米）。\\n4. 第2页提到公司全球设有研发中心和制造基地，并持续投资研发以保持竞争优势。\\n5. 但这些信息不足以回答关于美国政策影响或具体应对措施的问题。\\n6. 因此，无法基于当前检索内容提供答案。\",\n  \"reasoning_summary\": \"上下文未涉及美国政策及其对中芯国际的具体影响或应对措施，仅描述了公司定位和技术能力。\",\n  \"relevant_pages\": [1, 2],\n  \"final_answer\": \"根据提供的年报内容，无法确定美国对中国半导体产业的限制政策对中芯国际的具体影响及应对措施。\"\n}\n```",
+      "references": [
+        {
+          "pdf_sha1": "stock_10001",
+          "page_index": 0
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/4"
+      }
+    }
+  ],
+  "answer_details": [
+    {
+      "step_by_step_analysis": "",
+      "reasoning_summary": "",
+      "relevant_pages": [
+        0
+      ],
+      "response_data": {
+        "model": "qwen-turbo-latest",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      "self": "#/answer_details/0"
+    },
+    {
+      "step_by_step_analysis": "",
+      "reasoning_summary": "",
+      "relevant_pages": [
+        0
+      ],
+      "response_data": {
+        "model": "qwen-turbo-latest",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      "self": "#/answer_details/1"
+    },
+    {
+      "step_by_step_analysis": "",
+      "reasoning_summary": "",
+      "relevant_pages": [
+        0
+      ],
+      "response_data": {
+        "model": "qwen-turbo-latest",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      "self": "#/answer_details/2"
+    },
+    {
+      "step_by_step_analysis": "",
+      "reasoning_summary": "",
+      "relevant_pages": [
+        0
+      ],
+      "response_data": {
+        "model": "qwen-turbo-latest",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      "self": "#/answer_details/3"
+    },
+    {
+      "step_by_step_analysis": "",
+      "reasoning_summary": "",
+      "relevant_pages": [
+        0
+      ],
+      "response_data": {
+        "model": "qwen-turbo-latest",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      "self": "#/answer_details/4"
+    }
+  ],
+  "statistics": {
+    "total_questions": 5,
+    "error_count": 0,
+    "na_count": 0,
+    "success_count": 5
+  }
+}
