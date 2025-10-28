@@ -1,7 +1,7 @@
 # Rename this file to .env and put your own keys in it
 # You can ignore api keys for jina and gemini, if you don't plan to use them
 
-OPENAI_API_KEY=sk-DQwksKJwoYSxg7tDD1U7JjrV6woSJR1mZkaXxr2HOr8nazhu
+OPENAI_API_KEY=your_api_key
 
 GEMINI_API_KEY=AIzaS...
 
